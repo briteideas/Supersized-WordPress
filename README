@@ -1,0 +1,11 @@
+Merging Supersized JS Library into an easy to use WordPress Theme
+
+Supersized JS Library can be found here:
+
+http://buildinternet.com/project/supersized/
+
+
+Also install the following plugin (Will roll this into a theme plugin in the near future) 
+http://wordpress.org/extend/plugins/attachments/
+
+To Install, just move the 'supersized' folder into your themes, and activate.
