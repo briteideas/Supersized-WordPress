@@ -1,0 +1,117 @@
+h1,h2,h3,h4,h5,h6,p{ font-family: 'Times New Roman', serif; }
+p{ 
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+body.project h2.entry-title{ 
+	background: none repeat scroll 0 0 #000000;
+	color: #FFFFFF;
+	font-size: 3em;
+	opacity: 0.4;
+	padding: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#header h1#blog-title, #header h1#blog-title a, #access a{
+	color: #999;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#access a:hover{ color: #000; }
+
+#header h1#blog-title{ float: left;}
+
+
+div#menu{
+	background: none !important;
+	float:right;
+	margin: 0 !important;
+	height: 0 !important;
+}
+
+div#header{ border-bottom: 1px solid #666; height: 1em;}
+
+div#access{
+	float: right;
+}
+
+div#container{ min-height: 580px; margin: 0 auto !important;}
+
+div#content{ margin: 0 auto; width: 640px;}
+body.project div#header{ background:#fff; margin:0 auto; padding: 15px 0; width:100%; }
+body.project #header h1#blog-title, body.project #header h1#blog-title a, body.project #access a, body.home #access a{
+	font-size: 24px;
+	margin: 0;
+	padding: 0 10px;
+}
+body.project div#content, body.home div#content{ width: 100%; position:relative; }
+body.project div#container, body.home div#container{ width: 100%; }
+body.home div#header{ width: 100%; background: transparent; margin: 0 auto; padding:15px 0;}
+
+body.project div#wrapper, body.home div#wrapper{ width: 100%; margin: 0 auto; }
+body.project div#footer, body.home div#footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+}
+
+body.home div#header h1#blog-title{ display: none;}
+body.home div#wrapper{ 
+	background-image: url("../img/logo-invert.png");
+	background-position: 100px 30px;
+	background-repeat: no-repeat; 
+}
+body.home div#header{ border-top: 30px solid #fff; border-bottom: none;}
+body.home div#header #access a{ color: #fff }
+body.home div#header #access a:hover{ background: #ccc }
+
+div#content div.entry-content p{
+	text-align: justify;
+}
+
+div.sidebar{ width: 320px; color: #666; padding: 10px 0; }
+
+div#primary{ text-align: left;}
+div#secondary{ text-align: center;}
+div#tertiary{ text-align: right;}
+
+div#content div#projects-tracker{
+	background: transparent;
+  display: block;
+  z-index: 1;
+}
+div#content div#projects{
+	display:none;
+	background: #000;
+	opacity: 0.4;
+	-moz-opacity:0.4;
+	filter: alpha(opacity=40);
+  z-index: 4;
+}
+div#content div#projects, div#content div#projects-tracker{
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  width: 350px;
+  right: 0;
+}
+
+div#content div#projects ul{
+	margin: 0;
+	padding: 0;
+}
+div#content div#projects li a{
+	color: #fff;
+	font-size: 2em;
+	text-decoration: none;
+}
+div#content div#projects li{
+	margin: 0;
+	padding: 10px 20px;
+	color:#fff;
+}
+div#content div#projects li:hover{ 	background: #666; }
