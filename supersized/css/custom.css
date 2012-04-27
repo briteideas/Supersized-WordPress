@@ -60,11 +60,6 @@ body.project div#footer, body.home div#footer {
 }
 
 body.home div#header h1#blog-title{ display: none;}
-body.home div#wrapper{ 
-	background-image: url("../img/logo-invert.png");
-	background-position: 100px 30px;
-	background-repeat: no-repeat; 
-}
 body.home div#header{ border-top: 30px solid #fff; border-bottom: none;}
 body.home div#header #access a{ color: #fff }
 body.home div#header #access a:hover{ background: #ccc }
