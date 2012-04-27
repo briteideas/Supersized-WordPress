@@ -2,6 +2,9 @@
 /*
 Template Name: Gallery Page
 */
+
+activate_supersized();
+
 ?>
 <?php get_header() ?>
 
