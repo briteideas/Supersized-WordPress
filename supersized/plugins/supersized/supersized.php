@@ -17,14 +17,14 @@ class Supersized{
 
   // Example for efficiently adding jQuery plugins into project
     static function register_script() {
-        wp_enqueue_style( 'supersized', get_bloginfo('stylesheet_directory') . '/css/supersized.css', array(), '1.0', 'screen' );
-        wp_enqueue_style( 'supersized.shutter', get_bloginfo('stylesheet_directory') . '/theme/supersized.shutter.css', array('supersized'), '1.0', 'screen' );
+        wp_enqueue_style( 'supersized', get_bloginfo('template_directory') . '/css/supersized.css', array(), '1.0', 'screen' );
+        wp_enqueue_style( 'supersized.shutter', get_bloginfo('template_directory') . '/theme/supersized.shutter.css', array('supersized'), '1.0', 'screen' );
 
 
-        wp_enqueue_script('jquery.easing', get_bloginfo('stylesheet_directory') . "/js/jquery.easing.min.js", array('jquery'), '1.0', false);
+        wp_enqueue_script('jquery.easing', get_bloginfo('template_directory') . "/js/jquery.easing.min.js", array('jquery'), '1.0', false);
 
-        wp_enqueue_script('supersized', get_bloginfo('stylesheet_directory') . "/js/supersized.3.2.4.min.js", array('jquery'), '3.2.4', false);        
-        wp_enqueue_script('supersized.shutter.js', get_bloginfo('stylesheet_directory') . "/theme/supersized.shutter.js", array('supersized'), '1.0', false);
+        wp_enqueue_script('supersized', get_bloginfo('template_directory') . "/js/supersized.3.2.4.min.js", array('jquery'), '3.2.4', false);        
+        wp_enqueue_script('supersized.shutter.js', get_bloginfo('template_directory') . "/theme/supersized.shutter.js", array('supersized'), '1.0', false);
 
     }
 
