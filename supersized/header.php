@@ -27,7 +27,7 @@
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-		<h1 id="blog-title"><span><a href="<?php bloginfo('home') ?>/" title="<?php echo wp_specialchars( get_bloginfo('name'), 1 ) ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
+		<h1 id="blog-title"><a href="<?php bloginfo('home') ?>/" title="<?php echo wp_specialchars( get_bloginfo('name'), 1 ) ?>" rel="home"><span><?php bloginfo('name') ?></span></a></h1>
 		<?php /* //* Hiding for KADG <div id="blog-description"><?php bloginfo('description') ?></div> */ ?>
 	
 
