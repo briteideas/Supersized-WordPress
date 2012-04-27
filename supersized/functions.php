@@ -13,6 +13,7 @@ You should have received a copy of the GNU General Public License along with SAN
 require_once('post-types/project-post-type.php');
 
 // Functional plugins
+require_once('plugins/attachments/attachments.php');
 require_once('plugins/supersized/supersized.php');
 
 
