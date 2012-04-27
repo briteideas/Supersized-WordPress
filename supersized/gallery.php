@@ -20,8 +20,6 @@ Template Name: Gallery Page
 							$attachments = attachments_get_attachments();
 							$total_attachments = count( $attachments );
 
-							// error_log( serialize( $attachments ));
-							
 							do_supersized($attachments);
 
 						} ?>
