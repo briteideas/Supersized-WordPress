@@ -10,6 +10,8 @@ Version: 0.1
 /* Two-column with sidebar on left from the /examples/ folder  */
 @import url('css/reset.css');
 @import url('css/custom.css');
+@import url("960.min.css");
+
 
 /* Just some example content */
 

@@ -14,7 +14,7 @@ activate_supersized();
 <?php the_post() ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
-				<h2 class="entry-title"><?php the_title() ?></h2>
+				<h2 class="entry-title"><?php // the_title() ?></h2>
 				<div class="entry-content">
 
 					<?php 
@@ -28,7 +28,7 @@ activate_supersized();
 						} ?>
 					
 
-					<?php the_content() ?>
+					<?php // the_content() ?>
 
 				</div>
 			</div><!-- .post -->
@@ -38,4 +38,4 @@ activate_supersized();
 	</div><!-- #container -->
 
 <?php // get_sidebar() ?>
-<?php get_footer() ?>
+<?php // get_footer() ?>

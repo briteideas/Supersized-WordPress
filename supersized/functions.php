@@ -19,7 +19,7 @@ require_once('plugins/supersized/supersized.php');
 
 // Produces a list of pages in the header without whitespace
 function sandbox_globalnav() {
-	if ( $menu = str_replace( array( "\r", "\n", "\t" ), '', wp_list_pages('title_li=&sort_column=menu_order&echo=0') ) )
+	if ( $menu = str_replace( array( "\r", "\n", "\t" ), '', wp_list_pages('title_li=&sort_column=menu_order&echo=0&depth=1') ) )
 		$menu = '<ul>' . $menu . '</ul>';
 	$menu = '<div id="menu">' . $menu . "</div>\n";
 	echo apply_filters( 'globalnav_menu', $menu ); // Filter to override default globalnav: globalnav_menu

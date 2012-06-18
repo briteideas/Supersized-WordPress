@@ -1,5 +1,5 @@
 
-	<div id="footer">
+	<div id="footer" class="grid_12">
 		<?php get_sidebar() ?>
 	</div><!-- #footer -->
 
