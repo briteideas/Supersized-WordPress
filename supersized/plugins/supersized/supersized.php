@@ -78,6 +78,8 @@ class Supersized{
                         });
         </script>";
 
+        $stylesheet_directory = get_template_directory_uri();
+
         $controls = <<<EOD
 
                     <!--Thumbnail Navigation-->
@@ -93,7 +95,7 @@ class Supersized{
                     <div id="controls-wrapper" class="load-item">
                         <div id="controls">
 
-                            <a id="play-button"><img id="pauseplay" src="<?php bloginfo('stylesheet_directory') ?>/img/pause.png"/></a>
+                            <a id="play-button"><img id="pauseplay" src="$stylesheet_directory/img/pause.png"/></a>
 
                             <!--Slide counter-->
                             <div id="slidecounter">
@@ -104,7 +106,7 @@ class Supersized{
                             <div id="slidecaption"></div>
 
                             <!--Thumb Tray button-->
-                            <a id="tray-button"><img id="tray-arrow" src="<?php bloginfo('stylesheet_directory') ?>/img/button-tray-up.png"/></a>
+                            <a id="tray-button"><img id="tray-arrow" src="$stylesheet_directory/img/button-tray-up.png"/></a>
 
                             <!--Navigation-->
                             <ul id="slide-list"></ul>
